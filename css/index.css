@@ -1,0 +1,48 @@
+html, body {
+	background: #000;
+	color: #FFFFFF;
+	font-family: "Arial", sans-serif;
+}
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+table {
+	border: 0;
+}
+
+th {
+	font-weight: bold;
+	background: #222;
+	padding: 5px 10px;
+}
+
+td {
+	padding: 10px 20px;
+	border: 1px solid #222;
+}
+
+.button {
+	display: inline-block;
+	padding: 5px 10px;
+	border-radius: 5px;
+	background: #FF0000;
+}
+
+.container__cancel-btn {
+	border: none;
+	background: #FFFFFF;
+	font-size: 12px;
+}
+
+/* Indicates that the cancel button is a clickable element */
+.container__cancel-btn:hover {
+	cursor: pointer;
+}
+
+/* Sets the cursor to default when cancel button is disabled */
+.container__cancel-btn:hover:disabled {
+	cursor: auto;
+}

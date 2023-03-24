@@ -2,7 +2,8 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="modal.css" type="text/css" />
+		<link rel="stylesheet" href="./css/index.css" type="text/css" />
+		<link rel="stylesheet" href="./css/modal.css" type="text/css" />
 		<title>Modal</title>
 	</head>
 	<body>
@@ -20,13 +21,22 @@
 					<tr>
 						<td>$49.99 per month</td>
 						<td>December 13, 2020</td>
-						<td><button>Cancel</button></td>
+						<td><button class="container__cancel-btn">Cancel</button></td>
 					</tr>
 				</tbody>
 			</table>
 		</div>
+		<div id="modal" class="modal">
+			<div class="modal__content">
+			  <p>Are you sure you want to cancel your subscription?</p>
+			  <div class="modal-btn">
+				<button class="modal-btn__common modal-btn__common--no-btn">No</button>
+				<button class="modal-btn__common modal-btn__common--yes-btn">Yes - Cancel</button>
+			  </div>
+			</div>
+		  </div>
 		<footer>
-			<script type="text/javascript" src="modal.js"></script>
+			<script type="text/javascript" src="./js/modal.js"></script>
 		</footer>
 	</body>
 </html>
